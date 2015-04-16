@@ -1,0 +1,42 @@
+6
+Ananya 1 5
+Gaifuu solo
+Hero bfd
+Poseidon rhythm
+Wave
+Gaifuu bfd
+
+Grace 2 5
+Gaifuu bfd
+Hero main
+Poseidon rhythm
+Wave fire
+Gaifuu solo
+
+Alicia 2 5
+Hero main
+Poseidon rhythm
+Wave earth
+Gaifuu bfd
+Poseidon main
+
+Charles 4 5
+Poseidon rhythm
+Hero odaiko
+Gaifuu main
+Poseidon main
+Wave earth
+
+Tyler 3 5
+Hero odaiko
+Gaifuu bfd
+Gaifuu solo
+Wave wind
+Poseidon gong
+
+Chie 3 5
+Hero main
+Poseidon rhythm
+Gaifuu rhythm
+Poseidon main
+Wave wind

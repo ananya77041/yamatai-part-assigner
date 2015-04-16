@@ -1,0 +1,22 @@
+4
+Poseidon 4
+main 2
+rhythm 2
+odaiko 1
+gong 1
+
+Hero 3
+main 3
+odaiko 2
+bfd 1
+
+Gaifuu 4
+main 3
+rhythm 1
+solo 1
+bfd 1
+
+Wave 3
+earth 2
+wind 2
+fire 2
