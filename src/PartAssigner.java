@@ -6,12 +6,14 @@ public class PartAssigner {
 	private HashMap<String, Song> songs;
 	private Player[] players;
 
+	// assigns parts
 	public PartAssigner(String songsFilename, String playersFilename) {
 		readSongs(songsFilename);
 		readPlayers(playersFilename);
 		assign();
 	}
 
+	// reads songs and parts from file
 	private void readSongs(String filename) {
 		In in = new In(filename);
 		int numSongs = in.readInt();
@@ -28,6 +30,7 @@ public class PartAssigner {
 		}
 	}
 
+	// reads players and preferences from file
 	private void readPlayers(String filename) {
 		In in = new In(filename);
 		int numPlayers = in.readInt();
@@ -88,15 +91,17 @@ public class PartAssigner {
 		}
 	}
 
+	// all songs
 	public Iterable<Song> songs() {
 		return songs.values();
 	}
 
+	// all players
 	public Player[] players() {
 		return players;
 	}
 
-	// testing
+	// executable
 	public static void main(String[] args) {
 		PartAssigner assigner = new PartAssigner(args[0], args[1]);
 		for (Song s : assigner.songs()) StdOut.println(s.toString());
